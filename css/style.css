@@ -2,10 +2,10 @@
     
 
 :root {
-    --primary-color: #48cae4;
-    --dark-color: #001219;
-    --light-color: #f4f4f4;
-    --win-color: #06d6a0;
+    --primary-color: green;
+    --dark-color: rgb(3, 43, 3);
+    --light-color: #f0eeee;
+    --win-color: rgb(11, 236, 236);
 }
 
 *{
@@ -17,7 +17,7 @@
 body{
     font-family: 'Righteous';
     line-height: 1.6;
-    background: #fff;
+    background: rgb(100, 197, 100);
     color: #333;
 }
 
@@ -34,7 +34,7 @@ body{
 .restart-btn{
     display: none;
     background: var(--light-color);
-    color: #333;
+    color: rgb(77, 197, 77);
     padding: 0.4rem 1.3rem;
     font-family: 'Righteous';
     font-size: 2rem;
@@ -43,6 +43,11 @@ body{
     border: none;
     margin-bottom: 1rem;
     border-radius: 10px;
+    transition: all 400ms ease;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
 }
 
 .restart-btn:hover{
@@ -85,6 +90,11 @@ body{
 
 .choice{
     cursor: pointer;
+    transition: all 400ms ease;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
 }
 
 .choice:hover{
